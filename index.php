@@ -8,7 +8,7 @@
         if (isset($_SESSION['usuario'])) {
             header('location: '.RUTA.'login.php');
         
-
+            
         //validar datos de privilegio
 
         $conexion = conexion($bd_config);
@@ -33,7 +33,5 @@
             header('Location: '.RUTA.'login.php');
 
         }
-
-        
 
 ?>
